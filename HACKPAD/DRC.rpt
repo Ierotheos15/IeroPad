@@ -1,0 +1,193 @@
+** Drc report for HACKPAD.kicad_pcb **
+** Created on 2026-06-27T22:22:10 **
+** Report includes: Errors, Warnings **
+
+** Found 44 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(53.0000 mm, 90.5000 mm): Track [Net-(U1-PA5_A9_D9_MISO)] on B.Cu, length 0.0566 mm
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(55.0450 mm, 94.2610 mm): Reference field of SW2
+    @(62.0300 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(55.0450 mm, 109.3510 mm): Reference field of SW3
+    @(62.0300 mm, 109.1200 mm): Segment of SW2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 80.3800 mm): PTH pad 1 [unconnected-(U1-PA02_A0_D0-Pad1)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 80.3800 mm): PTH pad 14 [unconnected-(U1-5V-Pad14)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 80.3800 mm): PTH pad 1 [unconnected-(U1-PA02_A0_D0-Pad1)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 82.9200 mm): PTH pad 2 [unconnected-(U1-PA4_A1_D1-Pad2)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 85.4600 mm): PTH pad 3 [unconnected-(U1-PA10_A2_D2-Pad3)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 88.0000 mm): PTH pad 4 [unconnected-(U1-PA11_A3_D3-Pad4)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 90.5400 mm): PTH pad 5 [unconnected-(U1-PA8_A4_D4_SDA-Pad5)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 80.0600 mm): Segment of SW1 on F.Silkscreen
+    @(62.6250 mm, 93.0800 mm): PTH pad 6 [unconnected-(U1-PA9_A5_D5_SCL-Pad6)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 88.0000 mm): PTH pad 11 [Net-(U1-PA6_A10_D10_MOSI)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 85.4600 mm): PTH pad 12 [unconnected-(U1-3V3-Pad12)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 82.9200 mm): PTH pad 13 [GND] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 80.3800 mm): PTH pad 14 [unconnected-(U1-5V-Pad14)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 93.0800 mm): PTH pad 9 [Net-(U1-PA7_A8_D8_SCK)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 94.0300 mm): Segment of SW1 on F.Silkscreen
+    @(47.3750 mm, 90.5400 mm): PTH pad 10 [Net-(U1-PA5_A9_D9_MISO)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 95.1500 mm): Segment of SW2 on F.Silkscreen
+    @(62.6250 mm, 95.6200 mm): PTH pad 7 [unconnected-(U1-PB08_A6_D6_TX-Pad7)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 95.1500 mm): Segment of SW2 on F.Silkscreen
+    @(47.3750 mm, 95.6200 mm): PTH pad 8 [unconnected-(U1-PB09_A7_D7_RX-Pad8)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.0600 mm, 109.1200 mm): Segment of SW2 on F.Silkscreen
+    @(47.3750 mm, 95.6200 mm): PTH pad 8 [unconnected-(U1-PB09_A7_D7_RX-Pad8)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(62.0300 mm, 95.1500 mm): Segment of SW2 on F.Silkscreen
+    @(62.6250 mm, 95.6200 mm): PTH pad 7 [unconnected-(U1-PB08_A6_D6_TX-Pad7)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.0000 mm, 88.5000 mm): Footprint text of U1 (XIAO)
+    @(55.0450 mm, 87.0450 mm): NPTH pad of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.0000 mm, 86.5000 mm): Footprint text of U1 (Seeed Studio)
+    @(60.1250 mm, 87.0450 mm): NPTH pad of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.0000 mm, 86.5000 mm): Footprint text of U1 (Seeed Studio)
+    @(55.0450 mm, 87.0450 mm): NPTH pad of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(50.5000 mm, 83.4293 mm): Segment of U1 on B.Silkscreen
+    @(51.2350 mm, 84.5050 mm): PTH pad 2 [GND] of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.1000 mm, 96.5000 mm): Arc of U1 on B.Silkscreen
+    @(47.3750 mm, 95.6200 mm): PTH pad 8 [unconnected-(U1-PB09_A7_D7_RX-Pad8)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.0000 mm, 86.5000 mm): Footprint text of U1 (Seeed Studio)
+    @(49.9650 mm, 87.0450 mm): NPTH pad of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(48.1446 mm, 79.5446 mm): Arc of U1 on B.Silkscreen
+    @(47.3750 mm, 80.3800 mm): PTH pad 14 [unconnected-(U1-5V-Pad14)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 88.0000 mm): PTH pad 11 [Net-(U1-PA6_A10_D10_MOSI)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 85.4600 mm): PTH pad 12 [unconnected-(U1-3V3-Pad12)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 82.9200 mm): PTH pad 13 [GND] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 80.3800 mm): PTH pad 14 [unconnected-(U1-5V-Pad14)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 95.6200 mm): PTH pad 8 [unconnected-(U1-PB09_A7_D7_RX-Pad8)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 93.0800 mm): PTH pad 9 [Net-(U1-PA7_A8_D8_SCK)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.1000 mm, 96.5000 mm): Segment of U1 on B.Silkscreen
+    @(47.3750 mm, 90.5400 mm): PTH pad 10 [Net-(U1-PA5_A9_D9_MISO)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 80.3800 mm): PTH pad 1 [unconnected-(U1-PA02_A0_D0-Pad1)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 82.9200 mm): PTH pad 2 [unconnected-(U1-PA4_A1_D1-Pad2)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 85.4600 mm): PTH pad 3 [unconnected-(U1-PA10_A2_D2-Pad3)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 88.0000 mm): PTH pad 4 [unconnected-(U1-PA11_A3_D3-Pad4)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 90.5400 mm): PTH pad 5 [unconnected-(U1-PA8_A4_D4_SDA-Pad5)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 93.0800 mm): PTH pad 6 [unconnected-(U1-PA9_A5_D5_SCL-Pad6)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63.9000 mm, 79.5000 mm): Segment of U1 on B.Silkscreen
+    @(62.6250 mm, 95.6200 mm): PTH pad 7 [unconnected-(U1-PB08_A6_D6_TX-Pad7)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.9000 mm, 98.5000 mm): Segment of U1 on B.Silkscreen
+    @(51.2350 mm, 99.5950 mm): PTH pad 2 [GND] of SW2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.8551 mm, 96.4551 mm): Arc of U1 on B.Silkscreen
+    @(62.6250 mm, 95.6200 mm): PTH pad 7 [unconnected-(U1-PB08_A6_D6_TX-Pad7)] of U1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
